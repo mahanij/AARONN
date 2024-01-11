@@ -590,6 +590,26 @@ video {
   margin-bottom: 26px;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-\[-200px\] {
+  margin-top: -200px;
+}
+
+.mt-\[-300px\] {
+  margin-top: -300px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[192px\] {
+  margin-top: 192px;
+}
+
 .mt-\[33px\] {
   margin-top: 33px;
 }
@@ -598,8 +618,16 @@ video {
   margin-top: 45px;
 }
 
+.mt-\[74px\] {
+  margin-top: 74px;
+}
+
 .flex {
   display: flex;
+}
+
+.h-3\/5 {
+  height: 60%;
 }
 
 .h-\[134px\] {
@@ -630,12 +658,20 @@ video {
   height: 65px;
 }
 
+.h-\[740px\] {
+  height: 740px;
+}
+
 .h-\[84px\] {
   height: 84px;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-\[1148px\] {
@@ -648,6 +684,10 @@ video {
 
 .w-\[242px\] {
   width: 242px;
+}
+
+.w-\[285px\] {
+  width: 285px;
 }
 
 .w-\[288px\] {
@@ -684,6 +724,10 @@ video {
 
 .w-\[inherit\] {
   width: inherit;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -774,6 +818,10 @@ video {
   border-width: 1px;
 }
 
+.border-b-\[7px\] {
+  border-bottom-width: 7px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -781,6 +829,11 @@ video {
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(255 145 67 / var(--tw-border-opacity));
+}
+
+.border-secondry-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-white {
@@ -792,6 +845,11 @@ video {
   background-color: #03030480;
 }
 
+.bg-\[\#131313\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 19 19 / var(--tw-bg-opacity));
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(255 145 67 / var(--tw-bg-opacity));
@@ -800,6 +858,10 @@ video {
 .bg-secondry-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(26 26 26 / var(--tw-bg-opacity));
+}
+
+.p-\[30px\] {
+  padding: 30px;
 }
 
 .px-\[144px\] {
@@ -817,6 +879,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-rubik {
@@ -851,6 +917,10 @@ video {
   font-size: 62px;
 }
 
+.text-\[64px\] {
+  font-size: 64px;
+}
+
 .text-\[72px\] {
   font-size: 72px;
 }
@@ -876,9 +946,18 @@ video {
   line-height: normal;
 }
 
+.leading-normal {
+  line-height: 1.5;
+}
+
 .text-\[\#606060\] {
   --tw-text-opacity: 1;
   color: rgb(96 96 96 / var(--tw-text-opacity));
+}
+
+.text-\[\#949494\] {
+  --tw-text-opacity: 1;
+  color: rgb(148 148 148 / var(--tw-text-opacity));
 }
 
 .text-\[\#A8A8A8\] {
@@ -888,6 +967,11 @@ video {
 
 .text-\[14\] {
   color: 14;
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(255 145 67 / var(--tw-text-opacity));
 }
 
 .text-secondry-400 {
