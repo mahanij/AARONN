@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       "syne":['Syne, sans-serif'],
       "rubik":['Rubik, sans-serif'],
+      "Inter":['Inter, sans-serif']
     },
 
     extend: {
