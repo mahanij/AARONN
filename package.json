@@ -2,5 +2,10 @@
   "devDependencies": {
     "tailwindcss": "^3.4.0"
   },
-  "scripts": {"start": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"}
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "gpg": "^0.6.0"
+  }
 }
