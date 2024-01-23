@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <!-- fonts part -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -92,7 +96,7 @@
                 <li class="flex items-center justify-end">
                   <a
                     href="./index.html"
-                    class="font-rubik text-xs opacity-50 text-secondry-400 flex self-center hover:opacity-100"
+                    class="font-rubik text-xs opacity-50 text-secondry-400 flex self-center hover:opacity-100 active:opacity-100"
                   >
                     Home
                   </a>
@@ -100,14 +104,14 @@
                 <li class="flex items-center">
                   <a
                     href="./About-me.html"
-                    class="font-rubik text-[14px] opacity-50 text-secondry-400 flex self-center hover:opacity-100"
+                    class="font-rubik text-[14px] text-secondry-400 flex opacity-50 self-center hover:opacity-100 active:opacity-100"
                     >About me</a
                   >
                 </li>
                 <li class="flex items-center">
                   <a
                     href="./My-work.html"
-                    class="font-rubik text-[14] text-secondry-400 flex self-center hover:opacity-100 active:opacity-100 opacity-100"
+                    class="font-rubik text-[14] opacity-50 text-secondry-400 flex self-center hover:opacity-100"
                   >
                     My works
                   </a>
@@ -171,7 +175,7 @@
             data-aos="fade-right"
             data-aos-easing="linear"
           >
-            My works
+            Project Detail
           </h1>
           <p
             class="text-[#949494] font-rubik font-medium text-[18px]"
@@ -179,7 +183,7 @@
             data-aos-easing="linear"
             data-aos-duration="500"
           >
-            Showcase About Works
+            Details About The Porject
           </p>
           <hr
             class="mt-[91px]"
@@ -188,198 +192,139 @@
             data-aos-duration="600"
           />
         </div>
-        <div
-          class="card-container-1 px-[144px] flex justify-between mt-[101px]"
-        >
-          <div
-            class="card-1 flex flex-col items-center justify-around h-[439px]"
-            data-aos="flip-left"
-            data-aos-easing="linear"
-          >
-            <img src="/images/My-work-images/image(1).png" alt="" />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                blue
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                Orvillebury
-              </h3>
-            </div>
-          </div>
-          <div
-            class="card-2 flex flex-col items-center justify-around h-[439px]"
-            data-aos="flip-up"
-            data-aos-easing="ese"
-            data-aos-duration="1000"
-          >
-            <img src="/images/My-work-images/image(2).png" alt="" />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                green
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                West Lavada
-              </h3>
-            </div>
-          </div>
-          <div
-            class="card-3 flex flex-col items-center justify-around h-[439px]"
-            data-aos="flip-right"
-            data-aos-easing="ese"
-            data-aos-duration="1000"
-          >
-            <img src="/images/My-work-images/image(3).png" alt="" />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                aqua
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                Rempelshire
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div class="card-container-2 px-[144px] flex justify-between mt-[60px]">
-          <div
-            class="card-1 flex flex-col items-center justify-around h-[439px]"
-            data-aos="flip-right"
-            data-aos-easing="linear"
-          >
-            <img
-              src="/images/My-work-images/Second-card-container/Image(1).png"
-              alt=""
-            />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                lime
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                Delfinaland
-              </h3>
-            </div>
-          </div>
-          <div
-            class="card-2 flex flex-col items-center justify-around h-[439px]"
-            data-aos="flip-left"
-            data-aos-easing="linear"
-          >
-            <img
-              src="/images/My-work-images/Second-card-container/Image(2).png"
-              alt=""
-            />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                fuchsia
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                Buckridgeburgh
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div
-          class="card-container-3 px-[144px] flex justify-between mt-[101px]"
-        >
-          <div
-            class="card-1 flex flex-col items-center justify-around h-[439px]"
-            data-aos="zoom-in-right"
-            data-aos-easing="linear"
-          >
-            <img
-              src="/images/My-work-images/third-card-container/image(1).png"
-              alt=""
-            />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                black
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                Pfefferstad
-              </h3>
-            </div>
-          </div>
-          <div
-            class="card-2 flex flex-col items-center justify-around h-[439px]"
-            data-aos="flip-down"
-            data-aos-easing="ese"
-            data-aos-duration="750"
-          >
-            <img
-              src="/images/My-work-images/third-card-container/image(2).png"
-              alt=""
-            />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                purple
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                South Adrienne
-              </h3>
-            </div>
-          </div>
-          <div
-            class="card-3 flex flex-col items-center justify-around h-[439px]"
-            data-aos="zoom-in-left"
-            data-aos-easing="linear"
-          >
-            <img
-              src="/images/My-work-images/third-card-container/image(3).png"
-              alt=""
-            />
-            <div
-              class="h3-conteiner flex flex-col items-center justify-between"
-            >
-              <p class="font-bold font-Inter text-[#F4F7FA] text-[13px]">
-                maroon
-              </p>
-              <h3
-                class="text-[24px] font-bold font-Inter leading-8 text-secondry-400"
-              >
-                Lake Trevor
-              </h3>
-            </div>
-          </div>
-        </div>
       </div>
-      <div class="button-cantainer flex justify-center items-center">
-        <a href="My-work.html">
-          <button
-            class="flex items-center justify-evenly w-[224px] h-[60px] border-primary rounded-[32px] text-[13px] font-rubik text-primary font-bold border-[1px] mt-[60px] mb-[176px] hover:text-[#ff9143a4] w"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="1000"
-          >
-            Load more works
-          </button>
-        </a>
+      <div
+        class="px-[144px] flex justify-evenly flex-col items-center mt-[122px]"
+      >
+        <img src="/images/Project-ditail/image-1.png" alt="" class="w-full" />
+        <div class="Project-Story w-[750px] flex flex-col mt-[70px]">
+          <h2 class="text-secondry-400 text-[32px] font-bold font-syne">
+            Project Story
+          </h2>
+          <br /><br />
+          <p class="text-[#9CA7B8] text-[16px] font-normal font-rubik">
+            The fact that photography has different meanings to different people
+            is one of the many components of its appeal. Photography is such an
+            important part of our life that it is now very difficult to imagine
+            the world without it. <br />
+            <br />
+            We cannot imagine a wedding without the opportunity to capture it on
+            film, we would not be able to remember the growing up of children or
+            the holidays if we did not have pictures.
+          </p>
+        </div>
+        <div class="day-one flex justify-between w-full mt-[88px]">
+          <img src="/images/Project-ditail/image-2.png" alt="" />
+          <img src="/images/Project-ditail/image-3.png" alt="" />
+        </div>
+        <div class="Project-Story w-[750px] flex flex-col mt-[64px]">
+          <h2 class="text-secondry-400 text-[32px] font-bold font-syne">
+            Day One
+          </h2>
+          <br /><br />
+          <p class="text-[#9CA7B8] text-[16px] font-normal font-rubik">
+            Everywhere we are haunted by photography in newspapers, magazines,
+            advertisements on television on the Internet, but we still crave
+            even more. <br />
+            <br />
+            And what helps to achieve a good result? We will look at these
+            issues and some of the possibilities of photography and explain that
+            it is a combination of thought imagination, visual design, technical
+            skills and organizational skills
+          </p>
+        </div>
+        <div
+          class="slider flex justify-between items-center font-semibold font-rubik text-secondry-400 mt-[141px] w-full"
+        >
+          <div class="Previous-work flex items-end flex-wrap gap-[20px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="13"
+              viewBox="0 0 50 13"
+              fill="none"
+            >
+              <path
+                opacity="0.5"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.656006 1.33081e-07C-0.606846 2.23877e-05 0.274555 1.41676 0.656006 1.83698L10.8721 12.6848C11.2536 13.1051 11.872 13.1051 12.2535 12.6848C12.6349 12.2646 12.6349 11.5833 12.2535 11.1631L3.7048 2.15214H49.0232C49.5627 2.15214 50 1.67038 50 1.0761C50 0.481823 49.5627 6.58092e-05 49.0232 6.58092e-05H3.7048C3.7048 6.58092e-05 0.858303 -3.43187e-06 0.656006 1.33081e-07Z"
+                fill="white"
+              />
+            </svg>
+            Previous work
+          </div>
+          <div class="next work flex items-start flex-wrap gap-[20px]">
+            next work
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="13"
+              viewBox="0 0 50 13"
+              fill="none"
+            >
+              <path
+                opacity="0.5"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M49.344 13C50.6068 13 49.7254 11.5832 49.344 11.163L39.1279 0.315165C38.7464 -0.105054 38.128 -0.105054 37.7465 0.315165C37.3651 0.735383 37.3651 1.41669 37.7465 1.83691L46.2952 10.8479H0.976766C0.437313 10.8479 0 11.3296 0 11.9239C0 12.5182 0.437313 12.9999 0.976766 12.9999H46.2952C46.2952 12.9999 49.1417 13 49.344 13Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="Other-Projects flex flex-col items-center flex-wrap gap-[85px] text-secondry-400 font-syne w-full mt-[300px]"
+        >
+          <h2 class="font-bold text-[64px]">Other Projects</h2>
+          <div class="card-container flex justify-between w-full ">
+            <div
+              class="card-1 flex flex-col items-start justify-between flex-wrap gap-[10px]"
+            >
+              <img src="/images/Project-ditail/image-4.png" alt="" />
+              <h3
+                class="mt-[17px] font-Inter text-[24px] font-semibold ml-[20px]"
+              >
+                Logo Project 1
+              </h3>
+              <p
+                class="font-rubik text-[18px] text-[#949494] font-normal ml-[20px]"
+              >
+                Branding
+              </p>
+            </div>
+            <div
+              class="card-2 flex flex-col items-start justify-between flex-wrap gap-[10px]"
+            >
+              <img src="/images/Project-ditail/image-5.png" alt="" />
+              <h3
+                class="mt-[17px] font-Inter text-[24px] font-semibold ml-[20px]"
+              >
+                Logo Project 2
+              </h3>
+              <p
+                class="font-rubik text-[18px] text-[#949494] font-normal ml-[20px]"
+              >
+                Branding
+              </p>
+            </div>
+            <div
+              class="card-3 flex flex-col items-start justify-between flex-wrap gap-[10px]"
+            >
+              <img src="/images/Project-ditail/image-6.png" alt="" />
+              <h3
+                class="mt-[17px] font-Inter text-[24px] font-semibold ml-[20px]"
+              >
+                Logo Project 3
+              </h3>
+              <p
+                class="font-rubik text-[18px] text-[#949494] font-normal ml-[20px]"
+              >
+                Branding
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <footer class="bg-[#131313] h-[740px] mt-[100px] px-[144px]">
         <div
@@ -494,6 +439,7 @@
         </div>
       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
