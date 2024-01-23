@@ -6,6 +6,10 @@
     "start": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "dependencies": {
-    "gpg": "^0.6.0"
-  }
+    "gpg": "^0.6.0",
+    "swiper": "^11.0.5"
+  },
+  "tags": [
+    "swiper"
+  ]
 }
