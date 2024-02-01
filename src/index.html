@@ -25,16 +25,14 @@
   <body class="bg-secondry-100 overflow-x-hidden">
     <main class="overflow-x-hidden">
       <div class="hero h-screen max-sm:w-full">
-        <header class="max-sm:flex max-sm:justify-center max-sm:w-full">
-          <nav
-            class="flex items-start justify-center500 px-[144px] max-sm:hidden"
-          >
+        <header>
+          <nav class="flex items-start justify-center500 px-[144px] max-sm:hidden">
             <ul
               class="font-rubik text-[14px] flex w-full h-[47px] mt-[33px] gap-[50%]"
             >
               <!-- logo is here -->
               <li class="logo flex items-end">
-                <a href="#"
+                <a href="./index.html"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="125"
@@ -87,16 +85,16 @@
               <ul class="flex w-[50%] justify-self-end justify-between">
                 <li class="flex items-center justify-end">
                   <a
-                    href="#"
-                    class="font-rubik text-xs text-secondry-400 flex self-center hover:opacity-100 active:opacity-100 opacity-100"
+                    href="./index.html"
+                    class="font-rubik text-xs text-secondry-400 flex self-center hover:opacity-100 opacity-100"
                   >
                     Home
                   </a>
                 </li>
                 <li class="flex items-center">
                   <a
-                    href="About-me.html"
-                    class="font-rubik text-[14px] opacity-50 text-secondry-400 flex self-center hover:opacity-100"
+                    href="./About-me.html"
+                    class="font-rubik text-[14px] text-secondry-400 flex self-center hover:opacity-100 active:opacity-100 opacity-50"
                     >About me</a
                   >
                 </li>
@@ -118,10 +116,10 @@
               </ul>
             </ul>
           </nav>
-          <nav class="hidden max-sm:flex w-[80%] justify-start">
-            <ul>
-              <li class="logo flex items-end">
-                <a href="#"
+          <nav class="hidden max-sm:flex justify-between p-8 flex-row ">
+            <ul class="flex-row flex justify-between  w-full">
+              <li class="logo flex">
+                <a href="#" 
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="125"
@@ -168,6 +166,12 @@
                   </svg>
                 </a>
               </li>
+              <svg width="52" height="38" viewBox="0 0 52 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M49 3L3 3" stroke="black" stroke-width="5" stroke-linecap="round"/>
+                <path d="M49 35L3 35" stroke="black" stroke-width="5" stroke-linecap="round"/>
+                <path d="M49 19L3 19" stroke="black" stroke-width="5" stroke-linecap="round"/>
+              </svg>
+                
             </ul>
           </nav>
         </header>
@@ -254,10 +258,10 @@
         </div>
       </div>
       <div
-        class="second-100vh h-auto flex justify-between px-[144px] max-sm:flex-col max-sm:px-0 max-sm:w-full max-sm:justify-between max-sm:items-center"
+        class="second-100vh h-auto flex justify-between px-[144px] max-sm:flex-col max-sm:px-8 max-sm:w-full max-sm:justify-between max-sm:items-center "
       >
         <div
-          class="second-part flex justify-center items-start flex-col max-sm:w-full max-sm:items-center max-sm:justify-between"
+          class="second-part flex justify-center items-start flex-col max-sm:w-full max-sm:items-center max-sm:justify-between max-sm:h-[400px]"
         >
           <h2
             class="font-syne text-[56px] text-secondry-400 w-[516px] h-[134px] flex items-center justify-center text-left leading-[normal] max-sm:text-[35px] max-sm:px-10 max-sm:justify-center max-sm:text-justify"
@@ -313,16 +317,16 @@
             </svg>
           </div>
           <p
-            class="w-[625px] h-[84px] text-[#A8A8A8] text-[18px] font-rubik pt-[26px] mb-[26px] max-sm:w-[50%]"
+            class="w-[625px] h-[84px] text-[#A8A8A8] text-[18px] font-rubik pt-[26px] mb-[26px] max-sm:mb-4 max-sm:mt-0 max-sm:pt-0 max-sm:w-auto" 
             data-aos="fade-right"
             data-aos-duration="2000"
           >
             Aaronn is a New York-based visual designer focusing on branding
-            <br />and visual identity. Her portfolio showcases her wide range of
-            <br />work, spanning books, posters and web design.
+            <br class="max-sm:hidden" />and visual identity. Her portfolio showcases her wide range of
+            <br class="max-sm:hidden" />work, spanning books, posters and web design.
           </p>
           <button
-            class="flex items-center justify-evenly w-[288px] h-[59px] bg-primary rounded-[32px] text-[13px] font-rubik text-secondry-400 font-semibold my-[50px] max-sm:mt-20"
+            class="flex items-center justify-evenly w-[288px] h-[59px] bg-primary rounded-[32px] text-[13px] font-rubik text-secondry-400 font-semibold my-[50px] max-sm:my-0"
             data-aos="fade-right"
             data-aos-duration="2500"
           >
@@ -382,7 +386,7 @@
         </div>
       </div>
       <div
-        class="third-part flex flex-col justify-between w-[inherit] px-[144px] max-sm:px-0"
+        class="third-part flex flex-col justify-between w-[inherit] px-[144px] max-sm:px-20"
       >
         <h2
           class="text-[62px] font-syne text-secondry-400 text-center flex flex-col items-center"
@@ -771,9 +775,9 @@
             </svg>
           </div>
           <div
-            class="font-syne text-[24px] font-bold text-secondry-400 w-[285px] max-sm:flex max-sm:justify-center"
+            class="font-syne text-[24px] font-bold text-secondry-400 w-[285px] max-sm:flex max-sm:justify-center text-center"
           >
-            Street Avenue 21, CA0-8-00-888- <br />
+            Street Avenue 21, CA0-8-00-888- <br class="max-sm:hidden" />
             000
           </div>
           <div class="font-syne text-[24px] font-bold text-secondry-400">
