@@ -23,7 +23,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body class="bg-secondry-100 overflow-x-hidden">
-    <main class="bg-secondry-100 h-screen">
+    <main class="overflow-x-hidden">
       <div class="hero h-screen max-sm:w-full">
         <header class="max-sm:flex max-sm:justify-center max-sm:w-full">
           <nav
@@ -253,10 +253,14 @@
           </button>
         </div>
       </div>
-      <div class="second-100vh h-screen flex justify-between px-[144px] max-sm:flex-col max-sm:px-0 max-sm:w-full max-sm:justify-center">
-        <div class="second-part flex justify-center items-start flex-col max-sm:w-full max-sm:items-center">
+      <div
+        class="second-100vh h-auto flex justify-between px-[144px] max-sm:flex-col max-sm:px-0 max-sm:w-full max-sm:justify-between max-sm:items-center"
+      >
+        <div
+          class="second-part flex justify-center items-start flex-col max-sm:w-full max-sm:items-center max-sm:justify-between"
+        >
           <h2
-            class="font-syne text-[56px] text-secondry-400 w-[516px] h-[134px] flex items-center justify-center text-left leading-[normal] max-sm:text-[35px]"
+            class="font-syne text-[56px] text-secondry-400 w-[516px] h-[134px] flex items-center justify-center text-left leading-[normal] max-sm:text-[35px] max-sm:px-10 max-sm:justify-center max-sm:text-justify"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="linear"
@@ -309,7 +313,7 @@
             </svg>
           </div>
           <p
-            class="w-[625px] h-[84px] text-[#A8A8A8] text-[18px] font-rubik pt-[26px] mb-[26px]"
+            class="w-[625px] h-[84px] text-[#A8A8A8] text-[18px] font-rubik pt-[26px] mb-[26px] max-sm:w-[50%]"
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -318,14 +322,17 @@
             <br />work, spanning books, posters and web design.
           </p>
           <button
-            class="flex items-center justify-evenly w-[288px] h-[59px] bg-primary rounded-[32px] text-[13px] font-rubik text-secondry-400 font-semibold my-[50px]"
+            class="flex items-center justify-evenly w-[288px] h-[59px] bg-primary rounded-[32px] text-[13px] font-rubik text-secondry-400 font-semibold my-[50px] max-sm:mt-20"
             data-aos="fade-right"
             data-aos-duration="2500"
           >
             Discover More About Me
           </button>
         </div>
-        <div class="image-man flex items-center" data-aos="fade-left">
+        <div
+          class="image-man flex items-center max-sm:w-[70%]"
+          data-aos="fade-left"
+        >
           <img
             src="/images/Group 1000001576.png"
             alt=""
@@ -374,9 +381,8 @@
           </div>
         </div>
       </div>
-
       <div
-        class="third-part flex flex-col justify-between w-[inherit] px-[144px]"
+        class="third-part flex flex-col justify-between w-[inherit] px-[144px] max-sm:px-0"
       >
         <h2
           class="text-[62px] font-syne text-secondry-400 text-center flex flex-col items-center"
@@ -414,16 +420,20 @@
             </button>
           </a>
         </h2>
-        <div class="section-parts w-[inherit] flex">
+        <div
+          class="section-parts w-[inherit] flex max-sm:flex-col max-sm:items-center max-sm:w-aut0"
+        >
           <div
-            class="section-part-first flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between"
+            class="section-part-first flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between max-sm:w-auto"
           >
-            <section class="section-1 flex flex-col flex-wrap gap-8">
+            <section
+              class="section-1 flex flex-col flex-wrap gap-8 max-sm:w-auto"
+            >
               <a href="project-detail.html">
                 <img
                   src="/images/Img.jpg"
                   alt=""
-                  class="rounded-3xl h-[620px] w-[560px]"
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
                   data-aos="flip-left"
                   data-aos-offset="500"
                   data-aos-easing="linear"
@@ -455,12 +465,14 @@
                 </div>
               </div>
             </section>
-            <section class="section-2 flex flex-col flex-wrap gap-8">
+            <section
+              class="section-2 flex flex-col flex-wrap gap-8 max-sm:w-auto"
+            >
               <a href="project-detail.html">
                 <img
                   src="/images/Img1.jpg"
                   alt=""
-                  class="rounded-3xl h-[620px] w-[560px]"
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
                   data-aos="flip-left"
                   data-aos-offset="500"
                   data-aos-easing="linear"
@@ -495,14 +507,16 @@
             </section>
           </div>
           <div
-            class="section-part-second flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between items-end p"
+            class="section-part-second flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between items-end max-sm:w-auto"
           >
-            <section class="section-1 flex flex-col flex-wrap gap-8">
+            <section
+              class="section-1 flex flex-col flex-wrap gap-8 max-sm:w-auto"
+            >
               <a href="project-detail.html">
                 <img
                   src="/images/Img2.jpg"
                   alt=""
-                  class="rounded-3xl h-[620px] w-[560px]"
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
                   data-aos="flip-right"
                   data-aos-offset="500"
                   data-aos-easing="linear"
@@ -536,7 +550,7 @@
               </div>
             </section>
             <section
-              class="section-2 flex flex-col flex-wrap gap-8"
+              class="section-2 flex flex-col flex-wrap gap-8 max-sm:w-auto"
               data-aos="flip-right"
               data-aos-offset="500"
               data-aos-easing="linear"
@@ -545,7 +559,7 @@
                 <img
                   src="/images/Img3.jpg"
                   alt=""
-                  class="rounded-3xl h-[620px] w-[560px]"
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
                   data-aos="flip-right"
                   data-aos-offset="500"
                   data-aos-easing="linear"
@@ -581,10 +595,9 @@
           </div>
         </div>
       </div>
-      <div class="forth-part h-screen w-full flex items-center px-[144px]">
+      <div class="forth-part h-screen flex items-center px-[144px] max-sm:px-0 max-sm:justify-center flex-row max-sm:w-full max-sm:flex-col">
         <div
-          class="Testimonial flex flex-col w-1/2 h-3/5 justify-between"
-          class="second-part flex justify-center items-start flex-col"
+          class="second-part flex justify-center items-start flex-col max-sm:w-4/5 max-sm:items-center"
           data-aos="flip-up"
           data-aos-duration="500"
         >
@@ -635,7 +648,7 @@
               </svg>
             </div>
           </div>
-          <p class="long text-[#949494] font-rubik text-[18px] text-justify">
+          <p class="long text-[#949494] font-rubik text-[18px] text-justify max-sm:flex max-sm:justify-center">
             “Aaronn was fantastic to work with from start to finish. We were
             looking for a simple, stand-out logo and he delivered. I tried
             designing the logo myself thinking I wouldn’t need to pay the money
@@ -659,6 +672,7 @@
           data-aos-duration="500"
         >
           <svg
+            class="max-sm:hidden"
             width="161"
             height="93"
             viewBox="0 0 161 93"
@@ -687,7 +701,7 @@
           </svg>
         </div>
       </div>
-      <footer class="bg-[#131313] h-[740px] mt-[100px] px-[144px]">
+      <footer class="bg-[#131313] h-[740px] mt-[100px] px-[144px] max-sm:px-0">
         <div
           class="col flex flex-col items-center mt-[100px]"
           data-aos="fade-down"
@@ -700,13 +714,13 @@
           </p>
           <a
             href="#"
-            class="text-secondry-400 text-[64px] font-syne font-bold border-b-[7px] border-secondry-400"
+            class="text-secondry-400 text-[64px] font-syne font-bold border-b-[7px] border-secondry-400 max-sm:text-[50px]"
             >info@aaronn.com
           </a>
         </div>
 
         <div
-          class="row flex justify-between mt-[192px]"
+          class="row flex justify-between mt-[192px] max-sm:flex-col max-sm:mt-10 max-sm:justify-between max-sm:items-center max-sm:gap-8"
           data-aos="fade-up"
           data-aos-duration="1400"
         >
@@ -757,7 +771,7 @@
             </svg>
           </div>
           <div
-            class="font-syne text-[24px] font-bold text-secondry-400 w-[285px]"
+            class="font-syne text-[24px] font-bold text-secondry-400 w-[285px] max-sm:flex max-sm:justify-center"
           >
             Street Avenue 21, CA0-8-00-888- <br />
             000
