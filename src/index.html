@@ -22,11 +22,13 @@
     <link rel="stylesheet" href="./output.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body class="bg-secondry-100">
-    <main class="bg-secondry-100 h-screen">
-      <div class="hero h-screen">
-        <header>
-          <nav class="flex items-start justify-center500 px-[144px]">
+  <body class="bg-secondry-100 overflow-x-hidden">
+    <main class="overflow-x-hidden">
+      <div class="hero h-screen max-sm:w-full">
+        <header class="max-sm:flex max-sm:justify-center max-sm:w-full">
+          <nav
+            class="flex items-start justify-center500 px-[144px] max-sm:hidden"
+          >
             <ul
               class="font-rubik text-[14px] flex w-full h-[47px] mt-[33px] gap-[50%]"
             >
@@ -116,6 +118,58 @@
               </ul>
             </ul>
           </nav>
+          <nav class="hidden max-sm:flex w-[80%] justify-start">
+            <ul>
+              <li class="logo flex items-end">
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="125"
+                    height="28"
+                    viewBox="0 0 125 28"
+                    fill="none"
+                  >
+                    <circle
+                      cx="71"
+                      cy="14"
+                      r="9"
+                      stroke="white"
+                      stroke-opacity="0.15"
+                      stroke-width="10"
+                    />
+                    <circle
+                      opacity="0.6"
+                      cx="71"
+                      cy="14"
+                      r="8"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M2.91009 25H0L8.41688 3H11.2822L19.6991 25H16.789L9.93908 6.48047H9.76L2.91009 25ZM3.98459 16.4063H15.7145V18.7695H3.98459V16.4063Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M24.2097 25H21.2996L29.7165 3H32.5818L40.9987 25H38.0886L31.2387 6.48047H31.0596L24.2097 25ZM25.2842 16.4063H37.0141V18.7695H25.2842V16.4063Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M44.5692 25V3H52.3145C54.1053 3 55.5753 3.29362 56.7244 3.88086C57.8735 4.46094 58.7242 5.25944 59.2763 6.27637C59.8285 7.29329 60.1046 8.44987 60.1046 9.74609C60.1046 11.0423 59.8285 12.1917 59.2763 13.1943C58.7242 14.1969 57.8773 14.9847 56.7356 15.5576C55.5939 16.1234 54.1352 16.4063 52.3593 16.4063H46.0914V14H52.2697C53.4935 14 54.4784 13.8281 55.2246 13.4844C55.9782 13.1406 56.5229 12.6536 56.8587 12.0234C57.202 11.3861 57.3736 10.627 57.3736 9.74609C57.3736 8.86523 57.202 8.09538 56.8587 7.43652C56.5155 6.77767 55.967 6.26921 55.2134 5.91113C54.4598 5.5459 53.4636 5.36328 52.225 5.36328H47.345V25H44.5692ZM55.3589 15.1172L61 25H57.7765L52.225 15.1172H55.3589Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M101.217 3V25H98.5246L86.0062 7.72656H85.7819V25H83V3H85.6921L98.2554 20.3164H98.4797V3H101.217Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M125 3V25H122.308L109.789 7.72656H109.565V25H106.783V3H109.475L122.039 20.3164H122.263V3H125Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </header>
         <div class="absolute right-0 z-40">
           <svg
@@ -158,13 +212,13 @@
           </svg>
         </div>
         <div
-          class="second-part flex justify-center items-start self-start"
+          class="second-part flex justify-center items-start max-sm:w-full h-[80vh] max-sm:h-[95vh]"
           data-aos="flip-up"
           data-aos-easing="linear"
           data-aos-duration="300"
         >
           <h1
-            class="font-syne text-[72px] text-secondry-400 w-[891px] h-[178px] flex items-center justify-center-center text-center absolute top-[191px]"
+            class="font-syne text-[72px] text-secondry-400 w-[891px] h-[178px] flex items-center justify-center-center text-center absolute top-[191px] max-sm:text-[40px] max-sm:w-[80%]"
           >
             Adaptive Logo Design for Your Brand
           </h1>
@@ -199,10 +253,14 @@
           </button>
         </div>
       </div>
-      <div class="second-100vh h-screen flex justify-between px-[144px]">
-        <div class="second-part flex justify-center items-start flex-col">
+      <div
+        class="second-100vh h-auto flex justify-between px-[144px] max-sm:flex-col max-sm:px-0 max-sm:w-full max-sm:justify-between max-sm:items-center"
+      >
+        <div
+          class="second-part flex justify-center items-start flex-col max-sm:w-full max-sm:items-center max-sm:justify-between"
+        >
           <h2
-            class="font-syne text-[56px] text-secondry-400 w-[516px] h-[134px] flex items-center justify-center text-left leading-[normal]"
+            class="font-syne text-[56px] text-secondry-400 w-[516px] h-[134px] flex items-center justify-center text-left leading-[normal] max-sm:text-[35px] max-sm:px-10 max-sm:justify-center max-sm:text-justify"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="linear"
@@ -255,7 +313,7 @@
             </svg>
           </div>
           <p
-            class="w-[625px] h-[84px] text-[#A8A8A8] text-[18px] font-rubik pt-[26px] mb-[26px]"
+            class="w-[625px] h-[84px] text-[#A8A8A8] text-[18px] font-rubik pt-[26px] mb-[26px] max-sm:w-[50%]"
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -264,14 +322,17 @@
             <br />work, spanning books, posters and web design.
           </p>
           <button
-            class="flex items-center justify-evenly w-[288px] h-[59px] bg-primary rounded-[32px] text-[13px] font-rubik text-secondry-400 font-semibold my-[50px]"
+            class="flex items-center justify-evenly w-[288px] h-[59px] bg-primary rounded-[32px] text-[13px] font-rubik text-secondry-400 font-semibold my-[50px] max-sm:mt-20"
             data-aos="fade-right"
             data-aos-duration="2500"
           >
             Discover More About Me
           </button>
         </div>
-        <div class="image-man flex items-center" data-aos="fade-left">
+        <div
+          class="image-man flex items-center max-sm:w-[70%]"
+          data-aos="fade-left"
+        >
           <img
             src="/images/Group 1000001576.png"
             alt=""
@@ -320,9 +381,8 @@
           </div>
         </div>
       </div>
-
       <div
-        class="third-part flex flex-col justify-between w-[inherit] px-[144px]"
+        class="third-part flex flex-col justify-between w-[inherit] px-[144px] max-sm:px-0"
       >
         <h2
           class="text-[62px] font-syne text-secondry-400 text-center flex flex-col items-center"
@@ -360,20 +420,24 @@
             </button>
           </a>
         </h2>
-        <div class="section-parts w-[inherit] flex">
+        <div
+          class="section-parts w-[inherit] flex max-sm:flex-col max-sm:items-center max-sm:w-aut0"
+        >
           <div
-            class="section-part-first flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between"
+            class="section-part-first flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between max-sm:w-auto"
           >
-            <section class="section-1 flex flex-col flex-wrap gap-8">
+            <section
+              class="section-1 flex flex-col flex-wrap gap-8 max-sm:w-auto"
+            >
               <a href="project-detail.html">
                 <img
-                src="/images/Img.jpg"
-                alt=""
-                class="rounded-3xl h-[620px] w-[560px]"
-                data-aos="flip-left"
-                data-aos-offset="500"
-                data-aos-easing="linear"
-              />
+                  src="/images/Img.jpg"
+                  alt=""
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
+                  data-aos="flip-left"
+                  data-aos-offset="500"
+                  data-aos-easing="linear"
+                />
               </a>
               <h3
                 class="text-[24px] font-syne text-secondry-400 flex items-center font-bold flex-wrap gap-8"
@@ -401,16 +465,18 @@
                 </div>
               </div>
             </section>
-            <section class="section-2 flex flex-col flex-wrap gap-8">
+            <section
+              class="section-2 flex flex-col flex-wrap gap-8 max-sm:w-auto"
+            >
               <a href="project-detail.html">
                 <img
-                src="/images/Img1.jpg"
-                alt=""
-                class="rounded-3xl h-[620px] w-[560px]"
-                data-aos="flip-left"
-                data-aos-offset="500"
-                data-aos-easing="linear"
-              />
+                  src="/images/Img1.jpg"
+                  alt=""
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
+                  data-aos="flip-left"
+                  data-aos-offset="500"
+                  data-aos-easing="linear"
+                />
               </a>
               <h3
                 class="text-[24px] font-syne text-secondry-400 flex items-center font-bold flex-wrap gap-8"
@@ -441,18 +507,20 @@
             </section>
           </div>
           <div
-            class="section-part-second flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between items-end p"
+            class="section-part-second flex flex-col w-[50%] mt-[45px] gap-[94px] justify-between items-end max-sm:w-auto"
           >
-            <section class="section-1 flex flex-col flex-wrap gap-8">
+            <section
+              class="section-1 flex flex-col flex-wrap gap-8 max-sm:w-auto"
+            >
               <a href="project-detail.html">
                 <img
-                src="/images/Img2.jpg"
-                alt=""
-                class="rounded-3xl h-[620px] w-[560px]"
-                data-aos="flip-right"
-                data-aos-offset="500"
-                data-aos-easing="linear"
-              />
+                  src="/images/Img2.jpg"
+                  alt=""
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
+                  data-aos="flip-right"
+                  data-aos-offset="500"
+                  data-aos-easing="linear"
+                />
               </a>
               <h3
                 class="text-[24px] font-syne text-secondry-400 flex items-center font-bold flex-wrap gap-8"
@@ -482,20 +550,20 @@
               </div>
             </section>
             <section
-              class="section-2 flex flex-col flex-wrap gap-8"
+              class="section-2 flex flex-col flex-wrap gap-8 max-sm:w-auto"
               data-aos="flip-right"
               data-aos-offset="500"
               data-aos-easing="linear"
             >
               <a href="project-detail.html">
                 <img
-                src="/images/Img3.jpg"
-                alt=""
-                class="rounded-3xl h-[620px] w-[560px]"
-                data-aos="flip-right"
-                data-aos-offset="500"
-                data-aos-easing="linear"
-              />
+                  src="/images/Img3.jpg"
+                  alt=""
+                  class="rounded-3xl w-[560px] max-sm:w-auto"
+                  data-aos="flip-right"
+                  data-aos-offset="500"
+                  data-aos-easing="linear"
+                />
               </a>
               <h3
                 class="text-[24px] font-syne text-secondry-400 flex items-center font-bold flex-wrap gap-8"
@@ -527,10 +595,9 @@
           </div>
         </div>
       </div>
-      <div class="forth-part h-screen w-full flex items-center px-[144px]">
+      <div class="forth-part h-screen flex items-center px-[144px] max-sm:px-0 max-sm:justify-center flex-row max-sm:w-full max-sm:flex-col">
         <div
-          class="Testimonial flex flex-col w-1/2 h-3/5 justify-between"
-          class="second-part flex justify-center items-start flex-col"
+          class="second-part flex justify-center items-start flex-col max-sm:w-4/5 max-sm:items-center"
           data-aos="flip-up"
           data-aos-duration="500"
         >
@@ -581,7 +648,7 @@
               </svg>
             </div>
           </div>
-          <p class="long text-[#949494] font-rubik text-[18px] text-justify">
+          <p class="long text-[#949494] font-rubik text-[18px] text-justify max-sm:flex max-sm:justify-center">
             “Aaronn was fantastic to work with from start to finish. We were
             looking for a simple, stand-out logo and he delivered. I tried
             designing the logo myself thinking I wouldn’t need to pay the money
@@ -605,6 +672,7 @@
           data-aos-duration="500"
         >
           <svg
+            class="max-sm:hidden"
             width="161"
             height="93"
             viewBox="0 0 161 93"
@@ -633,7 +701,7 @@
           </svg>
         </div>
       </div>
-      <footer class="bg-[#131313] h-[740px] mt-[100px] px-[144px]">
+      <footer class="bg-[#131313] h-[740px] mt-[100px] px-[144px] max-sm:px-0">
         <div
           class="col flex flex-col items-center mt-[100px]"
           data-aos="fade-down"
@@ -646,13 +714,13 @@
           </p>
           <a
             href="#"
-            class="text-secondry-400 text-[64px] font-syne font-bold border-b-[7px] border-secondry-400"
+            class="text-secondry-400 text-[64px] font-syne font-bold border-b-[7px] border-secondry-400 max-sm:text-[50px]"
             >info@aaronn.com
           </a>
         </div>
 
         <div
-          class="row flex justify-between mt-[192px]"
+          class="row flex justify-between mt-[192px] max-sm:flex-col max-sm:mt-10 max-sm:justify-between max-sm:items-center max-sm:gap-8"
           data-aos="fade-up"
           data-aos-duration="1400"
         >
@@ -703,7 +771,7 @@
             </svg>
           </div>
           <div
-            class="font-syne text-[24px] font-bold text-secondry-400 w-[285px]"
+            class="font-syne text-[24px] font-bold text-secondry-400 w-[285px] max-sm:flex max-sm:justify-center"
           >
             Street Avenue 21, CA0-8-00-888- <br />
             000
